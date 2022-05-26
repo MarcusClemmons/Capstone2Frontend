@@ -1,0 +1,63 @@
+.Big{
+  font-size:xx-large;
+}
+.app {
+  font-family: "Trebuchet MS", "Lucinda Sans Unicode", "Lucinda Grande";
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.questionarea {
+  width: 1000px;
+
+  height: 600px;
+  font-size: smaller;
+}
+
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.questionbox {
+  background-color: antiquewhite;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.question-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.question-button {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkcyan;
+  color: white;
+}
+
+button:disabled {
+  background-color: darkgrey;
+  color: darkolivegreen;
+}
+
+select {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkcyan;
+  color: white;
+}
